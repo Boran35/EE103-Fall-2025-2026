@@ -39,3 +39,13 @@
 #print("Current estimated cubed = ", g**3)
 #next_g = g - ((g**3 - x)/(3*g**2))
 #print("Next guess to try = ", next_g)
+
+secret_number = 14
+input_number = int(input("Guess a number between 1 and 20: "))
+while input_number != secret_number:
+    if input_number < secret_number:
+        print("Too low - try again")
+    else:
+        print("Too high - try again")
+    input_number = int(input("Guess a number between 1 and 20: "))
+print("You guessed:", input_number)
