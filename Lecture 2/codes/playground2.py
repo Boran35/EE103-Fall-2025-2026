@@ -1,10 +1,10 @@
 
 ## TYPE THIS IN THE CONSOLE -- STRINGS ##
-a = 'me'
-b = "myself"
-c = a + b
-d = a + " " + b
-silly = a * 3
+#a = 'me'
+#b = "myself"
+#c = a + b
+#d = a + " " + b
+#silly = a * 3
 
 s = "abc"
 len(s) 
